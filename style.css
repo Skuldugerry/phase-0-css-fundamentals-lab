@@ -1,19 +1,20 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-figure{
+header{
   text-align: center;
 }
-h1{text-align: center;}
-a{
+body{border: darkgray;}
+nav a{background-color: gray;}
+#featured-property{
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: darkgreen;
 }
-<figcaption{
-  text-align: center;
+#featured-property p{
+  width: 800px;
+  text-align: left;
   font-size: small;
+  padding-left: 200px;
+}
+#details div{
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: red;
 }
